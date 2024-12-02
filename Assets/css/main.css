@@ -1,0 +1,10 @@
+html, body {  
+    margin:0px;  
+    height:100vh;  
+    width: 100%;
+    background-image: url("https://cdn.pixabay.com/photo/2021/06/25/10/09/cellular-antennas-6363434_1280.jpg");
+} 
+
+/* #background-login-image{
+    background-size: cover;
+} */
