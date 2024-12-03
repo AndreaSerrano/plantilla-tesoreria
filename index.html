@@ -4,9 +4,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://cdn.tailwindcss.com"></script>
         <link rel="stylesheet" href="Assets/css/main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:ital,wght@0,1..1000;1,1..1000&display=swap" rel="stylesheet">
     </head>
 
-    <body class="bg-sky-200 opacity-95">
+    <body class="opacity-95">
         <main class="container mx-auto size-full flex flex-col items-center space-y-2">
             <header class="container mx-auto flex justify-evenly">
                 <img class="my-6 w-1/2 h-36 rounded-lg shadow-lg md:w-auto" src="Assets/images/Logotipo-Jarrey-CMYK.jpg" alt="">
@@ -14,17 +17,6 @@
             <div class="bg-white w-[90%] h-14 flex justify-center items-center shadow-lg md:w-[50%]">
                 <a href="" class="w-1/2 h-full flex items-center justify-center font-bold text-xl">Inicio de Sesión</a>
             </div>
-            <!-- <form action="" class="w-11/12 h-full bg-green-100 flex flex-col items-center justify-center">
-                <div class="h-1/6">
-                    <input type="text" name="username" id="username" placeholder="Usuario" class="h-full">
-                </div>
-                <div class="h-1/6 bg-sky-200">
-                    <input type="password" name="passwordUN" id="passwordUN" placeholder="Contraseña">
-                </div>
-                <div>
-                    <button type="submit">Entrar</button>
-                </div>
-            </form> -->
             <form action="pages/index_admin.html" class="bg-white w-[90%] h-auto pl-5 flex flex-col gap-y-10 p-5 shadow-md md:w-[50%]">
                 <div class="bg-white">
                     <label for="" class="font-semibold text-2xl md:text-xl">Usuario</label></p>
@@ -35,10 +27,7 @@
                     <input type="password" placeholder="********" class="w-[95%] h-[70%] pl-[10px] rounded-md border-2 border-[#0E5F85] hover:border-2 hover:border-[#3D80CC]">
                 </div>
                 <div class="">
-                    <button id="btn-accept" class="bg-[#0E5F85] w-[95%] h-12 text-white text-xl rounded-lg ring-2 hover:ring-4">Entrar</button>
-                    <div class="text-[#666666] text-center"> 
-                        <a href="pages/session/recover-pwd-1.html" class="hover:underline">Olvidé mi contraseña</a>
-                    </div>
+                    <button id="btn-accept" class="bg-[#125785] w-[95%] h-12 text-white text-xl rounded-lg ring-2 hover:ring-4">Entrar</button>
                 </div>
             </form>            
         </main>
